@@ -72,7 +72,7 @@ const Cards = () => {
         </AnimatePresence>
       ) : (
         <div style={{ zIndex: 1 }}>
-          <h1 className="display-4 text-pink">🎉 Sorry! 🎉</h1>
+          <h1 className="display-4 text-pink"> Sorry mailuhhh!🥹🫴</h1>
           <p className="lead">
             Hope you will feel better now...Love yuhh soo much thangameyyy! 🥳
           </p>
