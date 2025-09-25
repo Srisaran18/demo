@@ -1,9 +1,11 @@
 import React from "react";
 import { Heart } from "lucide-react";
 import bgImage from "../assets/images/bg1.jpg"; // make sure path is correct
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const floatEmojis = ["❤️", "💖", "💕", "🧸", "💓", "💗"];
+  const Navigate = useNavigate();
 
   return (
     <div className="position-relative vh-100 vw-100 d-flex justify-content-center align-items-center text-center overflow-hidden">
@@ -54,7 +56,7 @@ const Home = () => {
             me, and I never want to lose our bond. Please forgive me… let’s
             forget the pain and create more happy memories together. 💕
           </p>
-          <button className="btn btn-pink btn-lg">Forgive Me? 🥺</button>
+          <button className="btn btn-pink btn-lg" onClick={() => Navigate('/cards')}>Click here if Forgive me 🥺</button>
         </div>
 
         {/* Footer */}
