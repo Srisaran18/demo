@@ -5,7 +5,7 @@ import { useWindowSize } from "react-use";
 import bgImage from "../assets/images/3.jpg"; // make sure the path is correct
 
 const apologyTexts = [
-  "I’m sorry for hurting your feelings. 💔 Swipe right ",
+  "I’m sorry for hurting your feelings. 💔 Swipe right",
   "I regret my words, please forgive me. 🥺",
   "Let us start from where we left. 💕",
   "I miss the love and care yuh showered. 😢",
